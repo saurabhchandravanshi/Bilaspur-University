@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchResultActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/search_result_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textAllCaps="true"
+            android:inputType="textCapCharacters"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            android:fontFamily="@font/sen_bold"
+            android:hint="ENTER YOUR NAME" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/search_result_submit_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/filled_border_accent"
+        android:lineSpacingExtra="6dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:fontFamily="@font/sen_bold"
+        android:padding="6dp"
+        android:text="SEARCH RESULT BY NAME"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/sen_bold"
+        android:textColor="@android:color/black"
+        android:text="OR SEARCH BY ROLL NUMBER"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/search_result_roll_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textAllCaps="true"
+            android:inputType="number"
+            android:outlineSpotShadowColor="@color/colorAccent"
+            android:fontFamily="@font/sen_bold"
+            android:hint="ENTER YOUR ROLL NUMBER" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/search_result_submit_roll_no"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/filled_border_accent"
+        android:lineSpacingExtra="6dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:fontFamily="@font/sen_bold"
+        android:padding="6dp"
+        android:text="SEARCH RESULT BY ROLL NUMBER"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
