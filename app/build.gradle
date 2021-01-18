@@ -1,16 +1,18 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.i3developer.abbv.bilaspur"
+        applicationId "com.i3developer.bastar"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 3
+        versionName "1.1"
+        multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -43,6 +45,9 @@ dependencies {
     implementation 'com.google.android.material:material:1.0.0' // for Material Design
     implementation 'androidx.browser:browser:1.0.0'
 
+
+    implementation 'com.google.firebase:firebase-ads:19.6.0'
+    implementation 'com.google.firebase:firebase-messaging:21.0.1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

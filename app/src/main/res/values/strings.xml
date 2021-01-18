@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Bilaspur University</string>
+    <string name="app_name">Bastar University</string>
+    <string name="dash_banner_ad_1">ca-app-pub-9546107720770258/4415831509</string>
+    <string name="dash_banner_ad_2">ca-app-pub-9546107720770258/7179216904</string>
+    <string name="search_result_ad_1">ca-app-pub-9546107720770258/6720035997</string>
+    <string name="search_result_ad_2">ca-app-pub-9546107720770258/7971933130</string>
+    <string name="result_list_interstitial">ca-app-pub-9546107720770258/8300726885</string>
+    <string name="result_web_view_interstitial">ca-app-pub-9546107720770258/8830375777</string>
+    <string name="result_list_recycler_banner">ca-app-pub-9546107720770258/9146904694</string>
+    <string name="student_list_recycler_banner">ca-app-pub-9546107720770258/8955333003</string>
+    <string name="default_notification_channel_id" >NOTIFICATION_CHANNEL_ID</string>
 </resources>

@@ -2,5 +2,8 @@
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">resulthour.com</domain>
+        <domain includeSubdomains="true">bvvjdp.ac.in</domain>
+        <domain includeSubdomains="true">i3developer.com</domain>
+        <domain includeSubdomains="true">i3developer.in</domain>
     </domain-config>
 </network-security-config>

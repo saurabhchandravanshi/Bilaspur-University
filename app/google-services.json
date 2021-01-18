@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "640078456582",
+    "project_id": "bastar-university",
+    "storage_bucket": "bastar-university.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640078456582:android:0bf052b272295531466087",
+        "android_client_info": {
+          "package_name": "com.i3developer.bastar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640078456582-ahea3qvot07c3lcbp5s81pka7b3f8mjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAma34Tb8MSO5uwKBc-DhkM2KcWS1lz5sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640078456582-ahea3qvot07c3lcbp5s81pka7b3f8mjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -10,7 +10,7 @@
     android:layout_width="100dp"
     android:layout_height="100dp"
     android:layout_centerInParent="true"
-    android:src="@drawable/ic_mortarboard"/>
+    android:src="@drawable/ic_bastar_univ_logo_80dp"/>
 
     <TextView
         android:layout_width="match_parent"

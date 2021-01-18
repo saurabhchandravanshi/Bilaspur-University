@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.edgesoft.resulthour.edesoft">
+    package="com.i3developer.bastar">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,27 +12,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.edgesoft.resulthour.com.edgesoft.resulthour.DashboardActivity"
-            android:theme="@style/CustomAppTheme"/>
         <activity
-            android:name="com.edgesoft.resulthour.com.edgesoft.resulthour.ResultWebViewActivity"
+            android:name="com.i3developer.bastar.DashboardActivity"
             android:theme="@style/CustomAppTheme" />
         <activity
-            android:name="com.edgesoft.resulthour.com.edgesoft.resulthour.ViewResultActivity"
+            android:name="com.i3developer.bastar.ResultWebViewActivity"
             android:theme="@style/CustomAppTheme" />
         <activity
-            android:name="com.edgesoft.resulthour.com.edgesoft.resulthour.SearchResultActivity"
+            android:name="com.i3developer.bastar.ViewResultActivity"
             android:theme="@style/CustomAppTheme" />
         <activity
-            android:name="com.edgesoft.resulthour.com.edgesoft.resulthour.HomeActivity"
+            android:name="com.i3developer.bastar.SearchResultActivity"
             android:theme="@style/CustomAppTheme" />
-        <activity android:name="com.edgesoft.resulthour.com.edgesoft.resulthour.MainActivity">
+        <activity
+            android:name="com.i3developer.bastar.HomeActivity"
+            android:theme="@style/CustomAppTheme" />
+        <activity android:name="com.i3developer.bastar.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9546107720770258~7580737273" />
+
+        <service android:name=".MyFirebaseMessagingService"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

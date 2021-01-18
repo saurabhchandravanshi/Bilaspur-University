@@ -32,7 +32,8 @@
                 android:textColor="@android:color/black"
                 android:textAlignment="center"
                 android:layout_margin="10dp"
-                android:text="Fetching requested result from Bilaspur University"/>
+                android:text="Fetching requested result from Bastar University"
+                android:gravity="center_horizontal" />
         </RelativeLayout>
     </FrameLayout>
 </RelativeLayout>
